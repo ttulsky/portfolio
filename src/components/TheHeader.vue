@@ -9,22 +9,29 @@
       </v-list-item>
     </v-list>
     <v-divider></v-divider>
+
     <v-list dense>
-      <v-list-item
-        prepend-icon="mdi-folder"
-        title="My Files"
-        value="myfiles"
-      ></v-list-item>
-      <v-list-item
-        prepend-icon="mdi-account-multiple"
-        title="Connect"
-        value="Connect"
-      ></v-list-item>
-      <v-list-item
-        prepend-icon="mdi-star"
-        title="About"
-        value="About"
-      ></v-list-item>
+      <router-link class="links" to="/projects">
+        <v-list-item
+          prepend-icon="mdi-star"
+          title="Projects"
+          value="Projects"
+        ></v-list-item>
+      </router-link>
+      <router-link class="links" to="/contact">
+        <v-list-item
+          prepend-icon="mdi-email"
+          title="Connect"
+          value="Connect"
+        ></v-list-item>
+      </router-link>
+      <router-link class="links" to="/about">
+        <v-list-item
+          prepend-icon="mdi-message-text"
+          title="About"
+          value="About"
+        ></v-list-item>
+      </router-link>
     </v-list>
   </v-navigation-drawer>
 
@@ -43,3 +50,10 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.links {
+  text-decoration: none;
+  color: black;
+}
+</style>
