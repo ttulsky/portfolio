@@ -1,4 +1,5 @@
 <template>
+  <h1 class="title">Technologies</h1>
   <div id="skills">
     <div class="front">
       <ul>
@@ -71,7 +72,6 @@
     </ul>
   </div>
   <br />
-  <p class="pTag">this is a paragrah tag</p>
 </template>
 
 <script>
@@ -85,7 +85,7 @@ export default {};
 }
 
 .front,
-.back .pTag {
+.back {
   flex: 0 0 auto; /* Flex items to not grow and take their content's width */
 }
 .marginL {
@@ -93,7 +93,7 @@ export default {};
 }
 
 .front ul,
-.back ul .pTag p {
+.back ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -108,5 +108,9 @@ export default {};
 /* Add some space between the front and back sections */
 .back {
   margin-left: 2em;
+}
+.title {
+  margin-left: 3%;
+  margin-bottom: 2%;
 }
 </style>
