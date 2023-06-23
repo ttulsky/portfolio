@@ -19,7 +19,8 @@
       </ul>
     </div>
   </div>
-  <p>this is an example</p>
+  <br />
+  <p>this is a paragrah tag</p>
 </template>
 <script>
 export default {};
