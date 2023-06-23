@@ -4,7 +4,9 @@
       <h1>Hi, I'm Tyler</h1>
       <h3>Your Friendly Neighborhood Web Developer</h3>
 
-      <v-btn rounded="xl" color="black">Hire Me Today!</v-btn>
+      <router-link to="/contact"
+        ><v-btn rounded="xl" color="black">Hire Me Today!</v-btn></router-link
+      >
     </div>
   </div>
 </template>

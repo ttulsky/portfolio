@@ -37,7 +37,11 @@
 
   <v-app-bar color="white" dark app>
     <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-    <v-toolbar-title>Tyler Tulsky | Full Stack Web Developer</v-toolbar-title>
+    <router-link class="links" to="/"
+      ><v-toolbar-title
+        >Tyler Tulsky | Full Stack Web Developer</v-toolbar-title
+      ></router-link
+    >
   </v-app-bar>
 </template>
 

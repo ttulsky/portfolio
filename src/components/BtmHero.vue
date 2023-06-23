@@ -2,7 +2,9 @@
   <div class="hero-image">
     <div class="hero-text">
       <h1>Let's Explore The World Of Technology</h1>
-      <v-btn rounded="xl" color="black">Learn More</v-btn>
+      <router-link to="/projects">
+        <v-btn rounded="xl" color="black">Learn More</v-btn></router-link
+      >
     </div>
   </div>
 </template>
