@@ -2,28 +2,16 @@
   <BtmHero />
   <div class="contacts">
     <v-btn
-      color="green
-"
-      href="https://kaizen-koffee.web.app/"
-      target="https://kaizen-koffee.web.app/"
+      href="https://www.linkedin.com/in/tyler-tulsky-a59103141/"
+      target="https://www.linkedin.com/in/tyler-tulsky-a59103141/"
     >
       linkedIN
     </v-btn>
     <v-btn
-      color="green
-"
-      href="https://kaizen-koffee.web.app/"
-      target="https://kaizen-koffee.web.app/"
+      href="https://github.com/ttulsky"
+      target="https://github.com/ttulsky"
     >
       GitHub
-    </v-btn>
-    <v-btn
-      color="green
-"
-      href="https://kaizen-koffee.web.app/"
-      target="https://kaizen-koffee.web.app/"
-    >
-      Email
     </v-btn>
   </div>
   <v-card class="top">
@@ -44,13 +32,16 @@
           v-model="message"
           cols="30"
           rows="5"
-          placeholder="Please let us know if you have any qestions or a specific project in mind!"
+          placeholder="Please let me know if you have any qestions or a specific project in mind!"
         >
         </textarea>
 
         <input type="submit" value="Send" />
       </form>
     </div>
+    <h3 class="email">
+      Please feel free to reach out to me directly at ttulsky@gmail.com
+    </h3>
   </v-card>
 </template>
 
@@ -74,14 +65,14 @@ export default {
     sendEmail(e) {
       try {
         emailjs.sendForm(
-          "service_yg0ni6u",
-          "template_xjdof6o",
+          process.env.VUE_APP_EMAILJS_SERVICE_ID,
+          process.env.VUE_APP_EMAILJS_TEMPLATE_ID,
           e.target,
-          "IBjbzHw0ArKy6WErU",
+          process.env.VUE_APP_EMAILJS_USER_ID,
           {
             name: this.name,
             email: this.email,
-            message: this.meessage,
+            message: this.message,
           }
         );
       } catch (err) {
@@ -104,12 +95,23 @@ export default {
 * {
   box-sizing: border-box;
 }
+.email {
+  text-align: center;
+}
 
 .contacts {
-  padding-top: 50px;
-
+  padding-top: 25px;
   text-align: center;
   justify-content: space-around;
+}
+
+.contacts .v-btn {
+  margin: 0 10px;
+  background-color: #4675a6; /* Or any color you like */
+}
+
+.contacts .v-btn:hover {
+  background-color: #a8cff5; /* Or any color you like */
 }
 
 .top {
@@ -117,15 +119,17 @@ export default {
   overflow-y: auto;
   height: 100vh;
 }
+
 label {
   float: left;
 }
+
 input[type="text"],
 [type="email"],
 textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #e5e4e4;
+  border: 1px solid #b4b1b1;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -134,8 +138,8 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #4caf50;
-  color: white;
+  background-color: #4675a6;
+  color: rgb(1, 1, 1);
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -143,7 +147,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #b8c7b9;
+  background-color: #a2cbf5;
 }
 
 .container {
@@ -151,7 +155,7 @@ input[type="submit"]:hover {
   margin: auto;
   text-align: center;
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #d2e8f4;
   padding: 20px;
   width: 50%;
 }
