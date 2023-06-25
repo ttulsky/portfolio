@@ -1,13 +1,10 @@
 <template>
   <v-app>
     <TheHeader></TheHeader>
-    <TheHero></TheHero>
     <v-main>
-      <div>
-        <router-view></router-view>
-      </div>
+      <router-view></router-view>
     </v-main>
-    <!-- <BtmHero></BtmHero> -->
+    <v-spacer class="space-ghost"></v-spacer>
     <TheFooter></TheFooter>
   </v-app>
 </template>
@@ -15,21 +12,19 @@
 <script>
 import TheHeader from "./components/TheHeader.vue";
 import TheFooter from "./components/TheFooter.vue";
-import TheHero from "./components/TheHero.vue";
-// import BtmHero from "./components/BtmHero.vue";
 
 export default {
   name: "App",
 
-  // data: () => ({
-  //   drawer: false,
-  // }),
-
   components: {
     TheHeader: TheHeader,
     TheFooter: TheFooter,
-    TheHero: TheHero,
-    // BtmHero: BtmHero,
   },
 };
 </script>
+
+<style scoped>
+.space-ghost {
+  padding-top: 50px;
+}
+</style>

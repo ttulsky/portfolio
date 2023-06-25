@@ -36,7 +36,7 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar @click.stop="drawer = !drawer" color="white" dark app>
+    <v-app-bar color="white" dark app>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <router-link class="links" to="/"
         ><v-toolbar-title

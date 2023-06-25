@@ -1,83 +1,89 @@
 <template>
-  <main>
-    <h1 class="title">Technologies</h1>
-    <div id="skills">
-      <div class="front">
-        <ul>
-          <h2>Frontend</h2>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>TypeScript</li>
-          <li>Vue.js</li>
-        </ul>
-      </div>
-      <div class="back">
-        <ul>
-          <h2>Backend</h2>
-          <li>Node.js</li>
-          <li>Express.js</li>
-          <li>Python</li>
-          <li>MongoDB</li>
-        </ul>
-      </div>
-      <div class="marginL"></div>
+  <TheHero />
+
+  <h1 class="title">Technologies</h1>
+  <div id="skills">
+    <div class="front">
       <ul>
-        <img
-          height="50"
-          width="50"
-          src="
-        https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-        />
-
-        <img
-          height="50"
-          width="50"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
-        />
-
-        <img
-          height="50"
-          width="50"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"
-        />
-
-        <img
-          height="50"
-          width="50"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-plain-wordmark.svg"
-        />
-        <img
-          height="50"
-          width="50"
-          class="node"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-        />
-
-        <img
-          height="50"
-          width="50"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
-        />
-
-        <img
-          height="50"
-          width="50"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
-        />
-
-        <img
-          height="55"
-          width="55"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
-        />
+        <h2>Frontend</h2>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>TypeScript</li>
+        <li>Vue.js</li>
       </ul>
     </div>
-    <br />
-  </main>
+    <div class="back">
+      <ul>
+        <h2>Backend</h2>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>Python</li>
+        <li>MongoDB</li>
+      </ul>
+    </div>
+    <div class="marginL"></div>
+    <ul>
+      <img
+        height="50"
+        width="50"
+        src="
+        https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+      />
+
+      <img
+        height="50"
+        width="50"
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+      />
+
+      <img
+        height="50"
+        width="50"
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"
+      />
+
+      <img
+        height="50"
+        width="50"
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-plain-wordmark.svg"
+      />
+      <img
+        height="50"
+        width="50"
+        class="node"
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+      />
+
+      <img
+        height="50"
+        width="50"
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
+      />
+
+      <img
+        height="50"
+        width="50"
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
+      />
+
+      <img
+        height="55"
+        width="55"
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
+      />
+    </ul>
+  </div>
+  <br />
 </template>
 
 <script>
-export default {};
+import TheHero from "../components/TheHero.vue";
+
+export default {
+  components: {
+    TheHero: TheHero,
+  },
+};
 </script>
 
 <style scoped>

@@ -1,11 +1,13 @@
 <template>
   <div class="hero-image">
     <div class="hero-text">
-      <h1>Hi, I'm Tyler</h1>
-      <h3>Your Friendly Neighborhood Web Developer</h3>
+      <h1>Check out some of my work below</h1>
+      <h3></h3>
 
       <router-link to="/contact"
-        ><v-btn rounded="xl" color="black">Hire Me Today!</v-btn></router-link
+        ><v-btn rounded="xl" color="black" boarder="white"
+          >Get In touch Here!</v-btn
+        ></router-link
       >
     </div>
   </div>
@@ -18,19 +20,19 @@ export default {};
 </script>
 
 <style scoped>
-body,
+/* body,
 html {
   height: 100%;
-}
+} */
 
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/public/imgs/1_Eh1ju0aZiQP5Q6UJ-KdevQ.jpeg");
+    url("/public/imgs/1_jVKsZjucxOyWWbEWh1I2hw.jpeg");
 
   /* Set a specific height */
-  height: 75%;
+  height: 55%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
