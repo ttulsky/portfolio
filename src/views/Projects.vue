@@ -35,7 +35,7 @@
           <v-divider></v-divider>
 
           <v-card-text>
-            A fun project built using JavaScript, Node, Express, EJS, and
+            A fun project built using JavaScript, Node, Express, EJS, and a
             MongoDB NoSQL Database. This was a great way to learn about the
             flexibility of NoSQL schema types and how to use EJS scriptlets for
             dynamic rendering.

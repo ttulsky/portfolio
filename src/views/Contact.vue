@@ -60,9 +60,9 @@ export default {
     BtmHero: BtmHero,
   },
   methods: {
-    sendEmail(e) {
+    async sendEmail(e) {
       try {
-        emailjs.sendForm(
+        await emailjs.sendForm(
           process.env.VUE_APP_EMAILJS_SERVICE_ID,
           process.env.VUE_APP_EMAILJS_TEMPLATE_ID,
           e.target,
@@ -72,6 +72,10 @@ export default {
             email: this.email,
             message: this.message,
           }
+        );
+        // If email sent successfully
+        alert(
+          "Thank you, your message has been received. We'll be in touch soon!"
         );
       } catch (err) {
         if (err instanceof ReferenceError) {

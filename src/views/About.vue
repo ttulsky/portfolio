@@ -16,7 +16,7 @@
       Wordpress. These intuitive platforms fostered my interest in website
       creation. Despite the user-friendly interface, I quickly realized I
       yearned for a deeper understanding and more control over my projects,
-      leading me to enroll in a Pythons bootcamp.
+      leading me to enroll in a Python bootcamp.
     </p>
 
     <p>
