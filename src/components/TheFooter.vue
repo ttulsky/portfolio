@@ -28,7 +28,7 @@ export default {};
   width: 100%;
   position: fixed;
   bottom: 0;
-  height: 30px;
+  height: 22px;
   z-index: 9999; /* Ensures the footer is always on top */
 }
 .link-icon {
@@ -39,7 +39,7 @@ export default {};
   text-decoration: none;
 }
 .custom-footer-color {
-  background-color: #080808; /* Replace with your desired hex color */
+  background-color: #445d78; /* Replace with your desired hex color */
 }
 .v-col {
   flex-grow: 0;

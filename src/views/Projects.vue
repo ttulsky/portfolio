@@ -14,6 +14,7 @@
 
       <v-card-actions>
         <v-btn
+          class="custom-btn"
           color="green"
           href="https://fair-leotard-bass.cyclic.app/"
           target="https://fair-leotard-bass.cyclic.app/"
@@ -55,7 +56,7 @@
 
       <v-card-actions>
         <v-btn
-          color="green"
+          class="custom-btn"
           href="https://www.sandbar-zamami.jp/"
           target="https://www.sandbar-zamami.jp/"
         >
@@ -95,8 +96,7 @@
 
       <v-card-actions>
         <v-btn
-          color="green
-"
+          class="custom-btn"
           href="https://kaizen-koffee.web.app/"
           target="https://kaizen-koffee.web.app/"
         >
@@ -142,6 +142,13 @@ export default {
 </script>
 
 <style scoped>
+.custom-btn {
+  background-color: #4272a5 !important;
+  color: #ffffff !important;
+}
+.custom-btn .v-btn:hover {
+  background-color: #a8c3de; /* Or any color you like */
+}
 .btns {
   overflow-y: auto;
   height: 100vh;

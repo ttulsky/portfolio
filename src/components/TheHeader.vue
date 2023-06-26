@@ -39,7 +39,7 @@
     <v-app-bar color="white" dark app>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <router-link class="links" to="/"
-        ><v-toolbar-title
+        ><v-toolbar-title class="hover"
           >Tyler Tulsky | Full Stack Web Developer</v-toolbar-title
         ></router-link
       >
@@ -73,5 +73,8 @@ export default {
 .links {
   text-decoration: none;
   color: black;
+}
+.hover :hover {
+  background-color: #eff0f2; /* Or any color you like */
 }
 </style>

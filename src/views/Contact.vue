@@ -1,32 +1,18 @@
 <template>
   <BtmHero />
-  <div class="contacts">
-    <v-btn
-      href="https://www.linkedin.com/in/tyler-tulsky-a59103141/"
-      target="https://www.linkedin.com/in/tyler-tulsky-a59103141/"
-    >
-      linkedIN
-    </v-btn>
-    <v-btn
-      href="https://github.com/ttulsky"
-      target="https://github.com/ttulsky"
-    >
-      GitHub
-    </v-btn>
-  </div>
   <v-card class="top">
     <div class="container">
       <form @submit.prevent="sendEmail">
-        <label>Name</label>
+        <strong><label>Name</label></strong>
         <input type="text" v-model="name" name="name" placeholder="Your Name" />
-        <label>Email</label>
+        <strong><label>Email</label></strong>
         <input
           type="email"
           v-model="email"
           name="email"
           placeholder="Your Email"
         />
-        <label>Message</label>
+        <strong><label>Message</label></strong>
         <textarea
           name="message"
           v-model="message"
@@ -39,9 +25,21 @@
         <input type="submit" value="Send" />
       </form>
     </div>
-    <h3 class="email">
-      Please feel free to reach out to me directly at ttulsky@gmail.com
-    </h3>
+    <h3 class="email">Reach out to me directly at ttulsky@gmail.com</h3>
+    <div class="contacts">
+      <v-btn
+        href="https://www.linkedin.com/in/tyler-tulsky-a59103141/"
+        target="https://www.linkedin.com/in/tyler-tulsky-a59103141/"
+      >
+        linkedIN
+      </v-btn>
+      <v-btn
+        href="https://github.com/ttulsky"
+        target="https://github.com/ttulsky"
+      >
+        GitHub
+      </v-btn>
+    </div>
   </v-card>
 </template>
 
@@ -96,11 +94,12 @@ export default {
   box-sizing: border-box;
 }
 .email {
+  padding-top: 15px;
   text-align: center;
 }
 
 .contacts {
-  padding-top: 25px;
+  padding-top: 10px;
   text-align: center;
   justify-content: space-around;
 }
@@ -115,7 +114,7 @@ export default {
 }
 
 .top {
-  padding-top: 25px;
+  padding-top: 10px;
   overflow-y: auto;
   height: 100vh;
 }

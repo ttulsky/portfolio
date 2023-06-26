@@ -2,23 +2,54 @@
   <BtmHero />
   <div class="about">
     <p>
-      Born and rasied in northen california near the heart of the silicon valley
-      I have always had a close connection with the Tech Industy. It wasnt until
-      I actully made my first website that I discovered the combination of
-      creatvity and problem solving the web development offered. As someone who
-      loves to learn, coding offers such a unique experience for me as there is
-      so many topics to traverse and dive into to!
+      As a native Northern Californian born and bred near the pulse of Silicon
+      Valley, I've been steeped in the world of technology from an early age.
+      However, it wasn't until I crafted my first website that I truly
+      discovered the synergistic blend of creativity and problem-solving that
+      web development offers. I am a voracious learner, and the diverse spectrum
+      of subjects within the realm of coding offers a continuously unfolding
+      landscape for exploration. The evolving nature of the industry keeps me
+      perpetually engaged and impassioned.
+    </p>
+    <p>
+      My journey into the world of coding began with platforms like Wix, and
+      Wordpress. These intuitive platforms fostered my interest in website
+      creation. Despite the user-friendly interface, I quickly realized I
+      yearned for a deeper understanding and more control over my projects,
+      leading me to enroll in a Pythons bootcamp.
+    </p>
+
+    <p>
+      The bootcamp served as my springboard into the realm of programming,
+      equipping me with the fundamentals of Python and a profound curiosity to
+      learn more. Eager to build on this foundation, I embarked on another
+      immersive experience, this time with a MERN (MongoDB, Express.js, React,
+      and Node.js) stack bootcamp. This experience deepened my knowledge and
+      skills, particularly in the realm of full-stack development, and cemented
+      my passion for coding.
+    </p>
+
+    <p>
+      As a part of my continuous learning endeavor, I graduated into working
+      with Vue and TypeScript. These powerful tools enhanced my ability to
+      create dynamic, efficient, and robust web applications, further expanding
+      my skill set. My journey through JavaScript, Python, MERN stack, Vue, and
+      TypeScript has been incredibly rewarding and stimulating, equipping me
+      with the toolkit to bring diverse and complex web projects to life.
+    </p>
+    <p>
+      In my approach to web development, I prioritize intuitive, user-friendly
+      layouts that encapsulate a seamless browsing experience. I strongly
+      believe in the pursuit of continuous improvement, considering each project
+      not as a completed task, but as an ongoing evolution. My dedication to
+      this ethos ensures that I bring unwavering commitment to actualizing my
+      clients vision.
     </p>
     <br />
     <p>
-      My approach to web development is to focus on creating a clean layout that
-      offers a intuitive and user friendly experence for visitors. I am of the
-      mindset that things can always be imporved so I never think of projects as
-      done, but a work in progress. If you choose to work with me you will see
-      my devotion to bringing your vision to life.
+      Let's collaborate to craft something extraordinary. I look forward to our
+      journey of creation together!
     </p>
-    <br />
-    <p>Lets develop something special today!</p>
   </div>
 </template>
 <script>
@@ -33,8 +64,22 @@ export default {
 
 <style scoped>
 .about {
-  padding-top: 5%;
-  text-align: left;
-  padding-left: 50px;
+  padding: 5% 170px;
+  font-family: "Helvetica Neue", sans-serif;
+  color: #333;
+  line-height: 1.6;
+  text-align: justify;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.about p {
+  margin-bottom: 20px;
+}
+
+.about p:last-child {
+  text-align: center;
+  font-weight: bold;
 }
 </style>
