@@ -99,7 +99,7 @@ export default {
 }
 
 .contacts {
-  padding-top: 10px;
+  padding-top: 15px;
   text-align: center;
   justify-content: space-around;
 }
@@ -114,7 +114,7 @@ export default {
 }
 
 .top {
-  padding-top: 10px;
+  padding-top: 25px;
   overflow-y: auto;
   height: 100vh;
 }

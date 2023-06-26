@@ -25,13 +25,13 @@
         <v-spacer></v-spacer>
 
         <v-btn
-          :icon="show ? 'mdi-chevron-up' : 'mdi-chevron-down'"
-          @click="show = !show"
+          :icon="show[0] ? 'mdi-chevron-up' : 'mdi-chevron-down'"
+          @click="toggle(0)"
         ></v-btn>
       </v-card-actions>
 
       <v-expand-transition>
-        <div v-show="show">
+        <div v-show="show[0]">
           <v-divider></v-divider>
 
           <v-card-text>
@@ -43,6 +43,7 @@
         </div>
       </v-expand-transition>
     </v-card>
+
     <v-card class="mx-auto" max-width="300">
       <v-img
         src="imgs/Screen Shot 2023-06-24 at 5.10.16 PM.jpeg"
@@ -65,13 +66,13 @@
         <v-spacer></v-spacer>
 
         <v-btn
-          :icon="show ? 'mdi-chevron-up' : 'mdi-chevron-down'"
-          @click="show = !show"
+          :icon="show[1] ? 'mdi-chevron-up' : 'mdi-chevron-down'"
+          @click="toggle(1)"
         ></v-btn>
       </v-card-actions>
 
       <v-expand-transition>
-        <div v-show="show">
+        <div v-show="show[1]">
           <v-divider></v-divider>
 
           <v-card-text>
@@ -83,6 +84,7 @@
         </div>
       </v-expand-transition>
     </v-card>
+
     <v-card class="mx-auto" max-width="300">
       <v-img
         src="imgs/Screen Shot 2023-06-24 at 5.40.37 PM.png"
@@ -106,13 +108,13 @@
         <v-spacer></v-spacer>
 
         <v-btn
-          :icon="show ? 'mdi-chevron-up' : 'mdi-chevron-down'"
-          @click="show = !show"
+          :icon="show[2] ? 'mdi-chevron-up' : 'mdi-chevron-down'"
+          @click="toggle(2)"
         ></v-btn>
       </v-card-actions>
 
       <v-expand-transition>
-        <div v-show="show">
+        <div v-show="show[2]">
           <v-divider></v-divider>
 
           <v-card-text>
@@ -133,8 +135,13 @@ import TheProjectsHero from "../components/TheProjectsHero.vue";
 
 export default {
   data: () => ({
-    show: false,
+    show: [false, false, false],
   }),
+  methods: {
+    toggle(i) {
+      this.show[i] = !this.show[i];
+    },
+  },
   components: {
     TheProjectsHero: TheProjectsHero,
   },
