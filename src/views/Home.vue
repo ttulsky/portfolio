@@ -1,78 +1,102 @@
-<template>
+<!-- <template>
   <TheHero />
 
-  <h1 class="title">Technologies</h1>
-  <div id="skills">
-    <div class="front">
-      <ul>
-        <h2>Frontend</h2>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>TypeScript</li>
-        <li>Vue.js</li>
-      </ul>
-    </div>
-    <div class="back">
-      <ul>
-        <h2>Backend</h2>
-        <li>Node.js</li>
-        <li>Express.js</li>
-        <li>Python</li>
-        <li>MongoDB</li>
-      </ul>
-    </div>
-    <div class="marginL"></div>
-    <ul>
-      <img
-        height="50"
-        width="50"
-        src="
-        https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-      />
+  <v-container>
+    <v-row>
+      <v-col cols="12">
+        <h1 class="title">Technologies</h1>
+      </v-col>
+    </v-row>
 
-      <img
-        height="50"
-        width="50"
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
-      />
+    <v-row id="skills">
+      <v-col cols="12" sm="6" md="4">
+        <div class="front">
+          <ul>
+            <h2>Frontend</h2>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>TypeScript</li>
+            <li>Vue.js</li>
+          </ul>
+        </div>
+      </v-col>
 
-      <img
-        height="50"
-        width="50"
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"
-      />
+      <v-col cols="12" sm="6" md="4">
+        <div class="back">
+          <ul>
+            <h2>Backend</h2>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>Python</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+      </v-col>
 
-      <img
-        height="50"
-        width="50"
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-plain-wordmark.svg"
-      />
-      <img
-        height="50"
-        width="50"
-        class="node"
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-      />
+      <v-col cols="12" md="4">
+        <ul class="d-flex flex-wrap icon-list">
+          <li>
+            <img
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            />
+          </li>
+          <li>
+            <img
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+            />
+          </li>
+          <li>
+            <img
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"
+            />
+          </li>
+          <li>
+            <img
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-plain-wordmark.svg"
+            />
+          </li>
+          <li>
+            <img
+              height="50"
+              width="50"
+              class="node"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+            />
+          </li>
+          <li>
+            <img
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
+            />
+          </li>
+          <li>
+            <img
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
+            />
+          </li>
+          <li>
+            <img
+              height="55"
+              width="55"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
+            />
+          </li>
+        </ul>
+      </v-col>
+    </v-row>
+  </v-container>
 
-      <img
-        height="50"
-        width="50"
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
-      />
-
-      <img
-        height="50"
-        width="50"
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
-      />
-
-      <img
-        height="55"
-        width="55"
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
-      />
-    </ul>
-  </div>
   <br />
 </template>
 
@@ -88,24 +112,15 @@ export default {
 
 <style scoped>
 #skills {
-  display: flex;
   align-items: flex-start;
 }
 
-.front,
-.back {
-  flex: 0 0 auto; /* Flex items to not grow and take their content's width */
-}
-.marginL {
-  margin-left: 2%;
-}
-
 .front ul,
-.back ul {
+.back ul,
+.icon-list {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  margin-left: 3em;
 }
 
 .front h2,
@@ -113,12 +128,175 @@ export default {
   margin-top: 0;
 }
 
-/* Add some space between the front and back sections */
-.back {
-  margin-left: 2em;
+.icon-list li {
+  margin-right: 10px; /* add some margin to the right of each icon */
 }
+
 .title {
-  margin-left: 3%;
   margin-bottom: 2%;
+}
+
+ul.d-flex {
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+</style> -->
+//////////////////////////////////////////////
+<template>
+  <TheHero />
+
+  <v-container>
+    <v-row>
+      <v-col cols="12">
+        <h1 class="title">Technologies</h1>
+      </v-col>
+    </v-row>
+
+    <v-row id="skills" class="d-flex flex-wrap">
+      <v-col cols="6">
+        <div class="front">
+          <ul>
+            <h2>Frontend</h2>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>TypeScript</li>
+            <li>Vue.js</li>
+          </ul>
+        </div>
+      </v-col>
+
+      <v-col cols="6">
+        <div class="back">
+          <ul>
+            <h2>Backend</h2>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>Python</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+      </v-col>
+    </v-row>
+
+    <v-row class="icon-row justify-space-between">
+      <v-col cols="1" class="icon-col">
+        <img
+          height="50"
+          width="50"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+        />
+      </v-col>
+      <v-col cols="1" class="icon-col">
+        <img
+          height="50"
+          width="50"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+        />
+      </v-col>
+      <v-col cols="1" class="icon-col">
+        <img
+          height="50"
+          width="50"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"
+        />
+      </v-col>
+      <v-col cols="1" class="icon-col">
+        <img
+          height="50"
+          width="50"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-plain-wordmark.svg"
+        />
+      </v-col>
+      <v-col cols="1" class="icon-col">
+        <img
+          height="50"
+          width="50"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+        />
+      </v-col>
+      <v-col cols="1" class="icon-col">
+        <img
+          height="50"
+          width="50"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
+        />
+      </v-col>
+      <v-col cols="1" class="icon-col">
+        <img
+          height="50"
+          width="50"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
+        />
+      </v-col>
+      <v-col cols="1" class="icon-col">
+        <img
+          height="50"
+          width="50"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
+        />
+      </v-col>
+    </v-row>
+  </v-container>
+
+  <br />
+</template>
+
+<script>
+import TheHero from "../components/TheHero.vue";
+
+export default {
+  components: {
+    TheHero: TheHero,
+  },
+};
+</script>
+
+<style scoped>
+#skills {
+  align-items: flex-start;
+}
+
+.front ul,
+.back ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.front h2,
+.back h2 {
+  margin-top: 0;
+}
+
+.title {
+  margin-bottom: 2%;
+}
+
+.icon-row img {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.icon-col {
+  padding: 0; /* Remove padding from the columns */
+  display: flex;
+  justify-content: center; /* Center the icon in the column horizontally */
+  align-items: center; /* Center the icon in the column vertically */
+}
+@media screen and (min-width: 1200px) {
+  .front,
+  .back {
+    padding-left: 3%;
+    flex-basis: 20%; /* Reduce the width of the lists for larger screens */
+  }
+
+  .icon-row {
+    justify-content: center; /* Center the icons */
+  }
+
+  .icon-col {
+    padding-left: 0 !important; /* Remove the left padding on the column */
+  }
 }
 </style>

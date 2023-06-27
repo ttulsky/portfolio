@@ -77,4 +77,15 @@ export default {
 .hover :hover {
   background-color: #eff0f2; /* Or any color you like */
 }
+.v-toolbar-title {
+  text-overflow: ellipsis; /* Will add '...' at the end of the line when the text overflows */
+  overflow: hidden; /* Ensures that the text doesn't extend beyond its container */
+  white-space: nowrap; /* Prevents the text from wrapping onto the next line */
+}
+
+@media screen and (max-width: 600px) {
+  .v-toolbar-title {
+    font-size: 14px; /* Reduce font size for viewports 600px and smaller */
+  }
+}
 </style>

@@ -1,22 +1,23 @@
 <template>
   <BtmHero />
   <div class="about">
+    <h1>My Journey Into Web Development</h1>
     <p>
-      As a native Northern Californian born and bred near the pulse of Silicon
-      Valley, I've been steeped in the world of technology from an early age.
-      However, it wasn't until I crafted my first website that I truly
-      discovered the synergistic blend of creativity and problem-solving that
-      web development offers. I am a voracious learner, and the diverse spectrum
-      of subjects within the realm of coding offers a continuously unfolding
-      landscape for exploration. The evolving nature of the industry keeps me
-      perpetually engaged and impassioned.
+      As a native Californian born and raised near the pulse of Silicon Valley,
+      I've been steeped in the world of technology from an early age. However,
+      it wasn't until I crafted my first website that I truly discovered the
+      synergistic blend of creativity and problem-solving that web development
+      offers. I am a voracious learner, and the diverse spectrum of subjects
+      within the realm of coding offers a continuously unfolding landscape for
+      exploration. The evolving nature of the industry keeps me perpetually
+      engaged and impassioned.
     </p>
     <p>
       My journey into the world of coding began with platforms like Wix, and
       Wordpress. These intuitive platforms fostered my interest in website
       creation. Despite the user-friendly interface, I quickly realized I
       yearned for a deeper understanding and more control over my projects,
-      leading me to enroll in a Python bootcamp.
+      leading me to enroll in a Python coding bootcamp.
     </p>
 
     <p>
@@ -31,7 +32,7 @@
 
     <p>
       As a part of my continuous learning endeavor, I graduated into working
-      with Vue and TypeScript. These powerful tools enhanced my ability to
+      with Vue.js and TypeScript. These powerful tools enhanced my ability to
       create dynamic, efficient, and robust web applications, further expanding
       my skill set. My journey through JavaScript, Python, MERN stack, Vue, and
       TypeScript has been incredibly rewarding and stimulating, equipping me
@@ -64,7 +65,7 @@ export default {
 
 <style scoped>
 .about {
-  padding: 5% 170px;
+  padding: 3% 100px;
   font-family: "Helvetica Neue", sans-serif;
   color: #333;
   line-height: 1.6;
