@@ -1,9 +1,11 @@
 <template>
   <div class="hero-image">
     <div class="hero-text">
-      <h1>Let's Explore The World Of Technology</h1>
+      <h2>We Look Forward to hearing from you!</h2>
       <router-link to="/projects">
-        <v-btn rounded="xl" color="black">Learn More</v-btn></router-link
+        <v-btn rounded="xl" color="black"
+          >Learn More About My Work</v-btn
+        ></router-link
       >
     </div>
   </div>
@@ -49,7 +51,7 @@ html {
 
 @media screen and (max-width: 700px) {
   .hero-image {
-    height: 10%; /* Adjust this value as needed */
+    height: 30%; /* Adjust this value as needed */
   }
 }
 </style>

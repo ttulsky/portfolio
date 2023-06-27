@@ -297,6 +297,7 @@ export default {
 
   .icon-col {
     padding-left: 0 !important; /* Remove the left padding on the column */
+    padding-bottom: 10%;
   }
 }
 </style>

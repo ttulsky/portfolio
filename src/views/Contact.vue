@@ -1,5 +1,5 @@
 <template>
-  <BtmHero />
+  <ContactHero />
   <v-card class="top">
     <div class="container">
       <form @submit.prevent="sendEmail">
@@ -18,7 +18,7 @@
           v-model="message"
           cols="30"
           rows="5"
-          placeholder="Please let me know if you have any qestions or a specific project in mind!"
+          placeholder="Please let me know if you have any questions or a specific project in mind!"
         >
         </textarea>
 
@@ -45,7 +45,7 @@
 
 <script>
 import * as emailjs from "@emailjs/browser";
-import BtmHero from "../components/BtmHero.vue";
+import ContactHero from "../components/ContactHero.vue";
 
 export default {
   name: "ContactUs",
@@ -57,7 +57,7 @@ export default {
     };
   },
   components: {
-    BtmHero: BtmHero,
+    ContactHero: ContactHero,
   },
   methods: {
     async sendEmail(e) {
@@ -161,5 +161,12 @@ input[type="submit"]:hover {
   background-color: #d2e8f4;
   padding: 20px;
   width: 50%;
+}
+
+/* Add media query for smaller viewports */
+@media (max-width: 700px) {
+  .container {
+    width: 90%;
+  }
 }
 </style>

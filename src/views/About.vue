@@ -21,21 +21,21 @@
     </p>
 
     <p>
-      The bootcamp served as my springboard into the realm of programming,
+      The bootcamp served as my springboard into the concepts of programming,
       equipping me with the fundamentals of Python and a profound curiosity to
       learn more. Eager to build on this foundation, I embarked on another
       immersive experience, this time with a MERN (MongoDB, Express.js, React,
       and Node.js) stack bootcamp. This experience deepened my knowledge and
-      skills, particularly in the realm of full-stack development, and cemented
-      my passion for coding.
+      skills, particularly in the area of full-stack development, and cemented
+      my passion for coding and working with databases.
     </p>
 
     <p>
       As a part of my continuous learning endeavor, I graduated into working
       with Vue.js and TypeScript. These powerful tools enhanced my ability to
       create dynamic, efficient, and robust web applications, further expanding
-      my skill set. My journey through JavaScript, Python, MERN stack, Vue, and
-      TypeScript has been incredibly rewarding and stimulating, equipping me
+      my skill set. My journey through JavaScript, Python, the MERN stack, Vue,
+      and TypeScript has been incredibly rewarding and stimulating, equipping me
       with the toolkit to bring diverse and complex web projects to life.
     </p>
     <p>
@@ -94,6 +94,10 @@ export default {
     font-size: 24px;
     margin: 10px 0;
   }
+  .about p {
+    line-height: 1.8;
+    margin-bottom: 25px;
+  }
 }
 @media screen and (max-width: 450px) {
   .about h1 {
@@ -101,12 +105,20 @@ export default {
     font-size: 20px;
     margin: 5px 0;
   }
+  .about p {
+    line-height: 1.9;
+    margin-bottom: 30px;
+  }
 }
 @media screen and (max-width: 360px) {
   .about h1 {
     /* Adjust these values as needed */
     font-size: 18px;
     margin: 3px 0;
+  }
+  .about p {
+    line-height: 2;
+    margin-bottom: 35px;
   }
 }
 </style>
