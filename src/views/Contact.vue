@@ -25,7 +25,7 @@
         <input type="submit" value="Send" />
       </form>
     </div>
-    <h3 class="email">Reach out to me directly at ttulsky@gmail.com</h3>
+    <h3 class="email">ttulsky@gmail.com</h3>
     <div class="contacts">
       <v-btn
         href="https://www.linkedin.com/in/tyler-tulsky-a59103141/"

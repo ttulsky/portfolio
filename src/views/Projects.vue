@@ -172,7 +172,7 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 10%;
+    padding-bottom: 30%;
   }
 }
 </style>

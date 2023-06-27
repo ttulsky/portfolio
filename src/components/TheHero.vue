@@ -30,7 +30,7 @@ html {
     url("/public/imgs/1_Eh1ju0aZiQP5Q6UJ-KdevQ.jpeg");
 
   /* Set a specific height */
-  height: 75%;
+  height: 70%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -47,5 +47,10 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+@media screen and (max-width: 700px) {
+  .hero-image {
+    height: 45%; /* Adjust this value as needed */
+  }
 }
 </style>

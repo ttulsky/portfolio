@@ -51,7 +51,7 @@ html {
 
 @media screen and (max-width: 700px) {
   .hero-image {
-    height: 30%; /* Adjust this value as needed */
+    height: 27%; /* Adjust this value as needed */
   }
 }
 </style>

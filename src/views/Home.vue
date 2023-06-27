@@ -145,7 +145,7 @@ ul.d-flex {
 <template>
   <TheHero />
 
-  <v-container>
+  <v-container class="container">
     <v-row>
       <v-col cols="12">
         <h1 class="title">Technologies</h1>
@@ -252,6 +252,10 @@ export default {
 </script>
 
 <style scoped>
+.container {
+  padding-bottom: 50px;
+}
+
 #skills {
   align-items: flex-start;
 }
@@ -279,24 +283,31 @@ export default {
 }
 
 .icon-col {
-  padding: 0; /* Remove padding from the columns */
+  padding: 0;
   display: flex;
-  justify-content: center; /* Center the icon in the column horizontally */
-  align-items: center; /* Center the icon in the column vertically */
+  justify-content: center;
+  align-items: center;
 }
+
+@media screen and (max-width: 700px) {
+  .container {
+    padding-bottom: 35px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .front,
   .back {
     padding-left: 3%;
-    flex-basis: 20%; /* Reduce the width of the lists for larger screens */
+    flex-basis: 20%;
   }
 
   .icon-row {
-    justify-content: center; /* Center the icons */
+    justify-content: center;
   }
 
   .icon-col {
-    padding-left: 0 !important; /* Remove the left padding on the column */
+    padding-left: 0 !important;
     padding-bottom: 10%;
   }
 }
