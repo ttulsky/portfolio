@@ -157,8 +157,8 @@ export default {
   background-color: #a8c3de; /* Or any color you like */
 }
 .btns {
-  overflow-y: auto;
-  height: 100vh;
+  padding-bottom: 1%;
+  min-height: 100vh;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -166,5 +166,13 @@ export default {
   padding-top: 50px;
   margin-left: 25px;
   margin-right: 25px;
+}
+@media screen and (max-width: 1100px) {
+  .btns {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+  }
 }
 </style>

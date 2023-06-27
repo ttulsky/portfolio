@@ -83,4 +83,30 @@ export default {
   text-align: center;
   font-weight: bold;
 }
+
+@media screen and (max-width: 700px) {
+  .about {
+    padding: 3% 20px; /* reduce the left and right padding */
+    font-size: 18px; /* increase the font size */
+  }
+  .about h1 {
+    /* Change these values as needed */
+    font-size: 24px;
+    margin: 10px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about h1 {
+    /* Adjust these values as needed */
+    font-size: 20px;
+    margin: 5px 0;
+  }
+}
+@media screen and (max-width: 360px) {
+  .about h1 {
+    /* Adjust these values as needed */
+    font-size: 18px;
+    margin: 3px 0;
+  }
+}
 </style>
