@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-navigation-drawer v-model="drawer" temporary>
+    <v-navigation-drawer class="drawer" v-model="drawer" temporary>
       <v-list>
         <v-list-item>
           <v-list-item-content>
@@ -70,6 +70,9 @@ export default {
 </script>
 
 <style scoped>
+::v-deep .drawer {
+  max-width: 215px;
+}
 .links {
   text-decoration: none;
   color: black;
