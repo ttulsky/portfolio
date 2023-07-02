@@ -5,7 +5,7 @@
       <h3></h3>
 
       <router-link to="/contact"
-        ><v-btn rounded="xl" color="black" boarder="white"
+        ><v-btn class="my-btn" rounded="xl" boarder="white"
           >Get In touch Here!</v-btn
         ></router-link
       >
@@ -26,6 +26,14 @@ html {
 } */
 
 /* The hero image */
+.my-btn {
+  background-color: #4675a6 !important; /* Your preferred color */
+  color: white !important; /* Text color */
+}
+
+.my-btn:hover {
+  background-color: #a8cff5 !important; /* Your preferred hover color */
+}
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),

@@ -6,13 +6,13 @@
       align="center"
     >
       <v-col class="pa-0" cols="auto">
-        <h6>Add</h6>
+        <h6></h6>
       </v-col>
       <v-col class="pa-0" cols="auto">
-        <h6>Commit</h6>
+        <h6>ttulsky@gmail.com</h6>
       </v-col>
       <v-col class="pa-0" cols="auto">
-        <h6>Push</h6>
+        <h6></h6>
       </v-col>
     </v-row>
   </v-footer>

@@ -3,8 +3,8 @@
     <div class="hero-text">
       <h1>Let's Explore The World Of Technology</h1>
       <router-link to="/projects">
-        <v-btn rounded="xl" color="black">Learn More</v-btn></router-link
-      >
+        <v-btn class="my-btn" rounded="xl">Learn More</v-btn>
+      </router-link>
     </div>
   </div>
 </template>
@@ -21,6 +21,14 @@ html {
   height: 100%;
 }
 
+.my-btn {
+  background-color: #4675a6 !important; /* Your preferred color */
+  color: white !important; /* Text color */
+}
+
+.my-btn:hover {
+  background-color: #a8cff5 !important; /* Your preferred hover color */
+}
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */

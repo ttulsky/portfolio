@@ -3,7 +3,7 @@
     <div class="hero-text">
       <h2>We Look Forward to hearing from you!</h2>
       <router-link to="/projects">
-        <v-btn rounded="xl" color="black"
+        <v-btn class="my-btn" rounded="xl"
           >Learn More About My Work</v-btn
         ></router-link
       >
@@ -21,6 +21,14 @@ export default {};
 body,
 html {
   height: 100%;
+}
+.my-btn {
+  background-color: #4675a6 !important; /* Your preferred color */
+  color: white !important; /* Text color */
+}
+
+.my-btn:hover {
+  background-color: #a8cff5 !important; /* Your preferred hover color */
 }
 
 /* The hero image */

@@ -5,7 +5,7 @@
       <h3>Your Friendly Neighborhood Web Developer</h3>
 
       <router-link to="/contact"
-        ><v-btn rounded="xl" color="black">Hire Me Today!</v-btn></router-link
+        ><v-btn class="my-btn" rounded="xl">Hire Me Today!</v-btn></router-link
       >
     </div>
   </div>
@@ -22,7 +22,14 @@ body,
 html {
   height: 100%;
 }
+.my-btn {
+  background-color: #4675a6 !important; /* Your preferred color */
+  color: white !important; /* Text color */
+}
 
+.my-btn:hover {
+  background-color: #a8cff5 !important; /* Your preferred hover color */
+}
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
