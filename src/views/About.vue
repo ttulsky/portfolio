@@ -48,6 +48,44 @@
     </p>
     <br />
     <p>
+      When I'm not creating user-friendly web applications, you'll most likely
+      catch me in the great outdoors or on a new adventure. Maybe I'll be
+      enjoying a good cup of coffee, or out hiking taking in all the beauty
+      nature has to offer. When the travel bug bites, you'll find me exploring
+      new places, soaking up different cultures and attempting to learn new
+      languages - not always successfully, but always with a lot of enthusiasm!
+      These experiences don't just enrich my life, they also inspire my work,
+      bringing new perspectives and fresh ideas to every project I take on.
+    </p>
+
+    <div class="section">
+      <div class="carousel-wrapper" style="text-align: center">
+        <div class="carousel-container">
+          <v-carousel
+            cycle
+            height="400"
+            hide-delimiter-background
+            show-arrows="hover"
+            class="carousel-bg"
+          >
+            <v-carousel-item
+              v-for="(item, i) in items"
+              :key="i"
+              class="carousel-bg"
+            >
+              <v-sheet height="100%" class="carousel-bg">
+                <div
+                  class="image-wrapper d-flex fill-height justify-center align-center"
+                >
+                  <img :src="item.src" class="carousel-image text-h2" />
+                </div>
+              </v-sheet>
+            </v-carousel-item>
+          </v-carousel>
+        </div>
+      </div>
+    </div>
+    <p>
       Let's collaborate to craft something extraordinary. I look forward to our
       journey of creation together!
     </p>
@@ -55,8 +93,43 @@
 </template>
 <script>
 import BtmHero from "../components/BtmHero.vue";
+import Image1 from "/public/imgs/IMG_20230702_100131.jpg";
+import Image2 from "/public/imgs/Ins34673651350_93c032d5a7e74245acdb40dcb3b1049a_315434358_1147885476119224_9004350367057276945_n.webp";
+import Image8 from "/public/imgs/Screenshot 2023-07-02 at 6.54.51 PM.png";
+
+import Image3 from "/public/imgs/IMG_20230115_154426.jpg";
+import Image4 from "/public/imgs/IMG_20230116_135224.jpg";
+import Image6 from "/public/imgs/IMG-20221115-WA0007.jpg";
+import Image7 from "/public/imgs/IMG_20221025_095030.jpg";
 
 export default {
+  data() {
+    return {
+      items: [
+        {
+          src: Image1,
+        },
+        {
+          src: Image2,
+        },
+        {
+          src: Image3,
+        },
+        {
+          src: Image8,
+        },
+        {
+          src: Image4,
+        },
+        {
+          src: Image6,
+        },
+        {
+          src: Image7,
+        },
+      ],
+    };
+  },
   components: {
     BtmHero: BtmHero,
   },
@@ -69,7 +142,7 @@ export default {
   font-family: "Helvetica Neue", sans-serif;
   color: #333;
   line-height: 1.6;
-  text-align: justify;
+  text-align: left;
   background-color: #f9f9f9;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
@@ -83,14 +156,28 @@ export default {
   text-align: center;
   font-weight: bold;
 }
+.carousel-bg {
+  background-color: #f9f9f9;
+}
+.carousel-container {
+  background-color: #f9f9f9;
+  width: 100%;
+  overflow: hidden;
+}
 
+.carousel-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  margin: auto;
+  display: block;
+}
 @media screen and (max-width: 700px) {
   .about {
-    padding: 3% 20px; /* reduce the left and right padding */
-    font-size: 18px; /* increase the font size */
+    padding: 3% 20px;
+    font-size: 18px;
   }
   .about h1 {
-    /* Change these values as needed */
     font-size: 24px;
     margin: 10px 0;
   }
@@ -99,10 +186,10 @@ export default {
     margin-bottom: 25px;
   }
 }
+
 @media screen and (max-width: 450px) {
   .about h1 {
-    /* Adjust these values as needed */
-    font-size: 20px;
+    font-size: 18px;
     margin: 5px 0;
   }
   .about p {
@@ -110,10 +197,10 @@ export default {
     margin-bottom: 30px;
   }
 }
+
 @media screen and (max-width: 360px) {
   .about h1 {
-    /* Adjust these values as needed */
-    font-size: 18px;
+    font-size: 17px;
     margin: 3px 0;
   }
   .about p {

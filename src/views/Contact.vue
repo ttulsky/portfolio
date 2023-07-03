@@ -110,6 +110,7 @@ export default {
 
 .contacts .v-btn {
   margin: 0 10px;
+  color: white;
   background-color: #4675a6; /* Or any color you like */
 }
 
@@ -142,7 +143,7 @@ textarea {
 
 input[type="submit"] {
   background-color: #4675a6;
-  color: rgb(1, 1, 1);
+  color: rgb(252, 250, 250);
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
