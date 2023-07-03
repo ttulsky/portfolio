@@ -63,15 +63,18 @@
         <div class="carousel-container">
           <v-carousel
             cycle
+            interval="7220"
             height="400"
             hide-delimiter-background
             show-arrows="hover"
-            class="carousel-bg"
+            class="carousel-bg custom-transition"
           >
             <v-carousel-item
               v-for="(item, i) in items"
               :key="i"
               class="carousel-bg"
+              reverse-transition="fade"
+              transition="fade"
             >
               <v-sheet height="100%" class="carousel-bg">
                 <div
@@ -93,14 +96,14 @@
 </template>
 <script>
 import BtmHero from "../components/BtmHero.vue";
-import Image1 from "/public/imgs/IMG_20230702_100131.jpg";
+import Image1 from "/public/imgs/IMG_20230702_100131 (1).jpg";
 import Image2 from "/public/imgs/Ins34673651350_93c032d5a7e74245acdb40dcb3b1049a_315434358_1147885476119224_9004350367057276945_n.webp";
 import Image8 from "/public/imgs/Screenshot 2023-07-02 at 6.54.51 PM.png";
 
-import Image3 from "/public/imgs/IMG_20230115_154426.jpg";
+import Image3 from "/public/imgs/IMG_20230115_154426 (1).jpg";
 import Image4 from "/public/imgs/IMG_20230116_135224.jpg";
-import Image6 from "/public/imgs/IMG-20221115-WA0007.jpg";
-import Image7 from "/public/imgs/IMG_20221025_095030.jpg";
+import Image6 from "/public/imgs/IMG-20221115-WA0007 (1) (1).jpg";
+import Image7 from "/public/imgs/IMG_20221025_095030 (1).jpg";
 
 export default {
   data() {
@@ -147,7 +150,14 @@ export default {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
+.fade {
+  transition: 5s ease-out;
+  position: absolute;
+  top: 0;
+  left: 0;
 
+  opacity: 0;
+}
 .about p {
   margin-bottom: 20px;
 }
@@ -185,6 +195,9 @@ export default {
     line-height: 1.8;
     margin-bottom: 25px;
   }
+}
+.custom-transition .v-window__container {
+  transition: all 5s ease-in-out;
 }
 
 @media screen and (max-width: 450px) {

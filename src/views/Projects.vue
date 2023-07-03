@@ -3,7 +3,7 @@
   <div class="btns">
     <v-card class="mx-auto" max-width="300">
       <v-img
-        src="imgs/Screen Shot 2023-06-24 at 5.57.30 PM.jpeg"
+        src="imgs/5894D1B6-076E-441D-A748-A6CC56211789_1_201_a.jpeg"
         height="175px"
         cover
       ></v-img>
