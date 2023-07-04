@@ -1,9 +1,9 @@
 <template>
   <div class="hero-image">
     <div class="hero-text">
-      <h1>Explore My Projects</h1>
+      <h1>View My Projects</h1>
       <router-link to="/projects">
-        <v-btn class="my-btn" rounded="xl">Learn More</v-btn>
+        <v-btn class="my-btn" rounded="xl">Here!</v-btn>
       </router-link>
     </div>
   </div>
@@ -27,7 +27,7 @@ html {
 }
 
 .my-btn:hover {
-  background-color: pink !important; /* Your preferred hover color */
+  background-color: #a8cff5 !important; /* Your preferred hover color */
 }
 /* The hero image */
 .hero-image {

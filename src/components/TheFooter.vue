@@ -41,7 +41,7 @@ export default {};
   width: 100%;
   position: fixed;
   bottom: 0;
-  height: 22px;
+  height: 30px;
   z-index: 9999; /* Ensures the footer is always on top */
 }
 
