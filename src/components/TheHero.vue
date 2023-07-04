@@ -55,6 +55,16 @@ html {
   transform: translate(-50%, -50%);
   color: white;
 }
+@media screen and (max-width: 820px) {
+  .hero-text h3 {
+    font-size: 0.89rem; /* Adjust this value as needed */
+  }
+}
+@media screen and (max-width: 820px) {
+  .hero-text h1 {
+    font-size: 1.3rem; /* Adjust this value as needed */
+  }
+}
 @media screen and (max-width: 700px) {
   .hero-image {
     height: 45%; /* Adjust this value as needed */

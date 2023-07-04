@@ -1,7 +1,7 @@
 <template>
   <div class="hero-image">
     <div class="hero-text">
-      <h1>Let's Explore The World Of Technology</h1>
+      <h1>Explore My Projects</h1>
       <router-link to="/projects">
         <v-btn class="my-btn" rounded="xl">Learn More</v-btn>
       </router-link>
@@ -54,10 +54,14 @@ html {
   transform: translate(-50%, -50%);
   color: white;
 }
-
+@media screen and (max-width: 820px) {
+  .hero-text h1 {
+    font-size: 1.2rem; /* Adjust this value as needed */
+  }
+}
 @media screen and (max-width: 700px) {
   .hero-image {
-    height: 10%; /* Adjust this value as needed */
+    height: 5%; /* Adjust this value as needed */
   }
 }
 </style>

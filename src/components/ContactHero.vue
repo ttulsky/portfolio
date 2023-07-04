@@ -1,7 +1,7 @@
 <template>
   <div class="hero-image">
     <div class="hero-text">
-      <h2>We Look Forward to hearing from you!</h2>
+      <h2>Looking Forward to hearing from you!</h2>
       <router-link to="/projects">
         <v-btn class="my-btn" rounded="xl"
           >Learn More About My Work</v-btn
@@ -57,6 +57,16 @@ html {
   color: white;
 }
 
+@media screen and (max-width: 820px) {
+  .hero-text h2 {
+    font-size: 1.4rem; /* Adjust this value as needed */
+  }
+}
+@media screen and (max-width: 414px) {
+  .hero-image {
+    height: 60%; /* Adjust this value as needed */
+  }
+}
 @media screen and (max-width: 700px) {
   .hero-image {
     height: 27%; /* Adjust this value as needed */
