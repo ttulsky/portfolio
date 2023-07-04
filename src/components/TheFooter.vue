@@ -25,9 +25,12 @@ export default {};
 </script>
 
 <style scoped>
+.pa-0 {
+  text-decoration: none !important;
+  color: white;
+}
 .links {
-  text-decoration: none;
-
+  text-decoration: none !important;
   color: white;
 }
 .links:hover {

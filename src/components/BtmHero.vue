@@ -27,7 +27,7 @@ html {
 }
 
 .my-btn:hover {
-  background-color: #a8cff5 !important; /* Your preferred hover color */
+  background-color: pink !important; /* Your preferred hover color */
 }
 /* The hero image */
 .hero-image {

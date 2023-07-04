@@ -101,7 +101,7 @@ import Image2 from "/public/imgs/Ins34673651350_93c032d5a7e74245acdb40dcb3b1049a
 import Image8 from "/public/imgs/Screenshot 2023-07-02 at 6.54.51 PM.png";
 
 import Image3 from "/public/imgs/IMG_20230115_154426 (1).jpg";
-import Image4 from "/public/imgs/IMG_20230116_135224.jpg";
+
 import Image6 from "/public/imgs/IMG-20221115-WA0007 (1) (1).jpg";
 import Image7 from "/public/imgs/IMG_20221025_095030 (1).jpg";
 
@@ -121,9 +121,7 @@ export default {
         {
           src: Image8,
         },
-        {
-          src: Image4,
-        },
+
         {
           src: Image6,
         },

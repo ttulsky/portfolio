@@ -5,7 +5,7 @@
       <h3></h3>
 
       <router-link to="/contact"
-        ><v-btn class="my-btn" rounded="xl" boarder="white"
+        ><v-btn class="my-btn" rounded="xl" color="black" boarder="white"
           >Get In touch Here!</v-btn
         ></router-link
       >
