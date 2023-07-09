@@ -4,7 +4,7 @@
     <v-main>
       <router-view></router-view>
     </v-main>
-    <v-spacer class="space-ghost"></v-spacer>
+    <div class="space-ghost"></div>
     <TheFooter></TheFooter>
   </v-app>
 </template>
@@ -25,6 +25,13 @@ export default {
 
 <style scoped>
 .space-ghost {
-  padding-top: 50px;
+  padding-top: 0px;
+  display: none;
+}
+
+@media screen and (min-width: 1000px) {
+  .space-ghost {
+    display: block;
+  }
 }
 </style>

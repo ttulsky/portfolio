@@ -1,147 +1,3 @@
-<!-- <template>
-  <TheHero />
-
-  <v-container>
-    <v-row>
-      <v-col cols="12">
-        <h1 class="title">Technologies</h1>
-      </v-col>
-    </v-row>
-
-    <v-row id="skills">
-      <v-col cols="12" sm="6" md="4">
-        <div class="front">
-          <ul>
-            <h2>Frontend</h2>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>TypeScript</li>
-            <li>Vue.js</li>
-          </ul>
-        </div>
-      </v-col>
-
-      <v-col cols="12" sm="6" md="4">
-        <div class="back">
-          <ul>
-            <h2>Backend</h2>
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>Python</li>
-            <li>MongoDB</li>
-          </ul>
-        </div>
-      </v-col>
-
-      <v-col cols="12" md="4">
-        <ul class="d-flex flex-wrap icon-list">
-          <li>
-            <img
-              height="50"
-              width="50"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-            />
-          </li>
-          <li>
-            <img
-              height="50"
-              width="50"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
-            />
-          </li>
-          <li>
-            <img
-              height="50"
-              width="50"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"
-            />
-          </li>
-          <li>
-            <img
-              height="50"
-              width="50"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-plain-wordmark.svg"
-            />
-          </li>
-          <li>
-            <img
-              height="50"
-              width="50"
-              class="node"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-            />
-          </li>
-          <li>
-            <img
-              height="50"
-              width="50"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
-            />
-          </li>
-          <li>
-            <img
-              height="50"
-              width="50"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
-            />
-          </li>
-          <li>
-            <img
-              height="55"
-              width="55"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
-            />
-          </li>
-        </ul>
-      </v-col>
-    </v-row>
-  </v-container>
-
-  <br />
-</template>
-
-<script>
-import TheHero from "../components/TheHero.vue";
-
-export default {
-  components: {
-    TheHero: TheHero,
-  },
-};
-</script>
-
-<style scoped>
-#skills {
-  align-items: flex-start;
-}
-
-.front ul,
-.back ul,
-.icon-list {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.front h2,
-.back h2 {
-  margin-top: 0;
-}
-
-.icon-list li {
-  margin-right: 10px; /* add some margin to the right of each icon */
-}
-
-.title {
-  margin-bottom: 2%;
-}
-
-ul.d-flex {
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-</style> -->
-//////////////////////////////////////////////
 <template>
   <TheHero />
 
@@ -178,7 +34,7 @@ ul.d-flex {
       </v-col>
     </v-row>
 
-    <v-row class="icon-row justify-space-between">
+    <v-row class="icon-row justify-space-between" align="start">
       <v-col cols="1" class="icon-col">
         <img
           height="50"
@@ -252,8 +108,11 @@ export default {
 </script>
 
 <style scoped>
+.icon-row {
+  padding-top: 3%;
+}
 .container {
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 
 #skills {
@@ -291,7 +150,7 @@ export default {
 
 @media screen and (max-width: 700px) {
   .container {
-    padding-bottom: 35px;
+    padding-bottom: 0px;
   }
 }
 
@@ -307,8 +166,8 @@ export default {
   }
 
   .icon-col {
-    padding-left: 0 !important;
-    padding-bottom: 10%;
+    padding-left: 2% !important;
+    padding-bottom: 2%;
   }
 }
 </style>
