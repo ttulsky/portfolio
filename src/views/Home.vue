@@ -3,7 +3,15 @@
 
   <v-container class="container">
     <v-row>
-      <v-col cols="12">
+      <v-col
+        cols="12"
+        style="
+          padding-bottom: 0px;
+          padding-left: 12px;
+          padding-top: 30px;
+          margin-bottom: 0;
+        "
+      >
         <h1 class="title">Technologies</h1>
       </v-col>
     </v-row>
@@ -109,7 +117,10 @@ export default {
 
 <style scoped>
 .icon-row {
-  padding-top: 3%;
+  padding-top: 1.5%;
+}
+.icon-col {
+  padding-right: 10%;
 }
 .container {
   padding-bottom: 0px;

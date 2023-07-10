@@ -139,7 +139,7 @@ export default {
 <style scoped>
 .about {
   padding: 3% 100px;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #333;
   line-height: 1.6;
   text-align: left;
