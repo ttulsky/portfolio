@@ -46,7 +46,7 @@
       this ethos ensures that I bring unwavering commitment to actualizing my
       clients vision.
     </p>
-    <br />
+
     <p>
       When I'm not creating user-friendly web applications, you'll most likely
       catch me in the great outdoors or on a new adventure. Maybe I'll be
