@@ -13,11 +13,11 @@
       engaged and impassioned.
     </p>
     <p>
-      My journey into the world of coding began with platforms like Wix, and
-      Wordpress. These intuitive platforms fostered my interest in website
-      creation. Despite the user-friendly interface, I quickly realized I
-      yearned for a deeper understanding and more control over my projects,
-      leading me to enroll in a Python coding bootcamp.
+      My journey into the world of coding began with platforms like Wix,
+      Squarespace and WordPress. These intuitive platforms fostered my interest
+      in website creation. Despite the user-friendly interface, I quickly
+      realized I yearned for a deeper understanding and more control over my
+      projects, leading me to enroll in a Python coding bootcamp.
     </p>
 
     <p>
@@ -66,7 +66,7 @@
             interval="7220"
             height="400"
             hide-delimiter-background
-            show-arrows="hover"
+            :show-arrows="false"
             class="carousel-bg custom-transition"
           >
             <v-carousel-item
