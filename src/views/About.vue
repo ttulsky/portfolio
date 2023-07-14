@@ -13,7 +13,7 @@
       engaged and impassioned.
     </p>
     <p>
-      My journey ints the world of coding began with platforms like Wix,
+      My journey into the world of coding began with platforms like Wix,
       Squarespace and WordPress. These intuitive platforms fostered my interest
       in website creation. Despite the user-friendly interface, I quickly
       realized I yearned for a deeper understanding and more control over my
@@ -21,21 +21,21 @@
     </p>
 
     <p>
-      The bootcamp served as my springboard into the concepts of programming,
-      equipping me with the fundamentals of Python and a profound curiosity to
-      learn more. Eager to build on this foundation, I embarked on another
-      immersive experience, this time with a MERN (MongoDB, Express.js, React,
-      and Node.js) stack bootcamp. This experience deepened my knowledge and
-      skills, particularly in the area of full-stack development, and cemented
-      my passion for coding and working with databases.
+      My first bootcamp served as a springboard into the concepts of
+      programming, equipping me with the fundamentals of Python and a profound
+      curiosity to learn more. Eager to build on this foundation, I embarked on
+      another immersive experience, this time with a MERN (MongoDB, Express.js,
+      React, and Node.js) stack bootcamp. This experience deepened my knowledge
+      and skills, particularly in the area of JavaScript and full-stack
+      development.
     </p>
 
     <p>
-      As a part of my continuous learning endeavor, I graduated into working
-      with Vue.js and TypeScript. These powerful tools enhanced my ability to
-      create dynamic, efficient, and robust web applications, further expanding
-      my skill set. My journey through JavaScript, Python, the MERN stack, Vue,
-      and TypeScript has been incredibly rewarding and stimulating, equipping me
+      As a part of my continuous learning endeavor, I moved into working with
+      Vue.js and TypeScript. These powerful tools enhanced my ability to create
+      dynamic, efficient, and robust web applications, further expanding my
+      skill set. My journey through JavaScript, Python, the MERN stack, Vue, and
+      TypeScript has been incredibly rewarding and stimulating, equipping me
       with the toolkit to bring diverse and complex web projects to life.
     </p>
     <p>
