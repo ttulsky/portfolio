@@ -13,7 +13,7 @@
       engaged and impassioned.
     </p>
     <p>
-      My journey into the world of coding began with platforms like Wix,
+      My journey ints the world of coding began with platforms like Wix,
       Squarespace and WordPress. These intuitive platforms fostered my interest
       in website creation. Despite the user-friendly interface, I quickly
       realized I yearned for a deeper understanding and more control over my
