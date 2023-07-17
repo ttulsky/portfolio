@@ -61,6 +61,10 @@ export default {
   },
   methods: {
     async sendEmail(e) {
+      if (!this.email) {
+        alert("Please enter your email address");
+        return;
+      }
       try {
         await emailjs.sendForm(
           process.env.VUE_APP_EMAILJS_SERVICE_ID,
@@ -73,10 +77,11 @@ export default {
             message: this.message,
           }
         );
-        // If email sent successfully
-        alert(
-          "Thank you, your message has been received. We'll be in touch soon!"
-        );
+        let firstName = this.name.split(" ")[0];
+        let message = firstName
+          ? `Thanks ${firstName}! Your message has been received. I'll be in touch soon!`
+          : "Thank you! Your message has been received. I'll be in touch soon!";
+        alert(message);
       } catch (err) {
         if (err instanceof ReferenceError) {
           alert("JSON Error: " + err.message);
@@ -84,7 +89,6 @@ export default {
           throw err; // rethrow
         }
       }
-      // Reset form field
       this.name = "";
       this.email = "";
       this.message = "";
