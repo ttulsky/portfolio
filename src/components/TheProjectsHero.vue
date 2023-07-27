@@ -40,7 +40,7 @@ html {
     url("/public/imgs/1_jVKsZjucxOyWWbEWh1I2hw.jpeg");
 
   /* Set a specific height */
-  height: 55%;
+  height: 35vh;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -61,31 +61,6 @@ html {
 @media screen and (max-width: 820px) {
   .hero-text h1 {
     font-size: 1.1rem; /* Adjust this value as needed */
-  }
-}
-@media screen and (max-width: 414px) {
-  .hero-image {
-    height: 45%; /* Adjust this value as needed */
-  }
-}
-@media screen and (max-width: 700px) {
-  .hero-image {
-    height: 20%; /* Adjust this value as needed */
-  }
-}
-@media screen and (max-width: 1100px) {
-  .hero-image {
-    height: 30%; /* Adjust this value as needed */
-  }
-}
-@media screen and (max-width: 1300px) {
-  .hero-image {
-    height: 39%; /* Adjust this value as needed */
-  }
-}
-@media screen and (max-width: 1490px) {
-  .hero-image {
-    height: 39%; /* Adjust this value as needed */
   }
 }
 </style>

@@ -5,7 +5,7 @@
         <v-list-item>
           <v-list-item-content>
             <v-list-item-title>Tyler Tulsky</v-list-item-title>
-            <v-list-item-subtitle>ttulsky@gmailcom</v-list-item-subtitle>
+            <v-list-item-subtitle>ttulsky@gmail.com</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
       </v-list>
