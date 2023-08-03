@@ -64,3 +64,31 @@ html {
   }
 }
 </style>
+
+<!-- previous css
+
+@media screen and (max-width: 414px) {
+  .hero-image {
+    height: 45%; /* Adjust this value as needed */
+  }
+}
+@media screen and (max-width: 700px) {
+  .hero-image {
+    height: 20%; /* Adjust this value as needed */
+  }
+}
+@media screen and (max-width: 1100px) {
+  .hero-image {
+    height: 30%; /* Adjust this value as needed */
+  }
+}
+@media screen and (max-width: 1300px) {
+  .hero-image {
+    height: 39%; /* Adjust this value as needed */
+  }
+}
+@media screen and (max-width: 1490px) {
+  .hero-image {
+    height: 39%; /* Adjust this value as needed */
+  }
+} -->
