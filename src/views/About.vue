@@ -32,11 +32,12 @@
 
     <p>
       As a part of my continuous learning endeavor, I moved into working with
-      Vue.js and TypeScript. These powerful tools enhanced my ability to create
-      dynamic, efficient, and robust web applications, further expanding my
-      skill set. My journey through JavaScript, Python, the MERN stack, Vue, and
-      TypeScript has been incredibly rewarding and stimulating, equipping me
-      with the toolkit to bring diverse and complex web projects to life.
+      Vue.js, TypeScript, NextJS and Nest! These powerful tools enhanced my
+      ability to create dynamic, efficient, and robust web applications, further
+      expanding my skill set. My journey through JavaScript, Python, the MERN
+      stack, Vue, and TypeScript has been incredibly rewarding and stimulating,
+      equipping me with the toolkit to bring diverse and complex web projects to
+      life.
     </p>
     <p>
       In my approach to web development, I prioritize intuitive, user-friendly

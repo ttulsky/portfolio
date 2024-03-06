@@ -37,7 +37,7 @@ html {
     url("/public/imgs/1_Eh1ju0aZiQP5Q6UJ-KdevQ.jpeg");
 
   /* Set a specific height */
-  height: 50%;
+  height: 40%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;

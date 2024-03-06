@@ -8,7 +8,7 @@
         style="
           padding-bottom: 0px;
           padding-left: 12px;
-          padding-top: 30px;
+          padding-top: 10px;
           margin-bottom: 0;
         "
       >
@@ -22,8 +22,9 @@
           <ul>
             <h2>Frontend</h2>
             <li>JavaScript</li>
-            <li>React</li>
             <li>TypeScript</li>
+            <li>React</li>
+            <li>NextJS</li>
             <li>Vue.js</li>
           </ul>
         </div>
@@ -35,8 +36,10 @@
             <h2>Backend</h2>
             <li>Node.js</li>
             <li>Express.js</li>
+            <li>Nest</li>
             <li>Python</li>
             <li>MongoDB</li>
+            <li>Mysql</li>
           </ul>
         </div>
       </v-col>
@@ -118,6 +121,7 @@ export default {
 <style scoped>
 .icon-row {
   padding-top: 1.5%;
+  padding-right: 15%;
 }
 .icon-col {
   padding-right: 10%;
