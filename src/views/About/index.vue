@@ -26,8 +26,8 @@
       curiosity to learn more. Eager to build on this foundation, I embarked on
       another immersive experience, this time with a MERN (MongoDB, Express.js,
       React, and Node.js) stack bootcamp. This experience deepened my knowledge
-      and skills, particularly in the area of JavaScript and full-stack
-      development.
+      and skills, and was crucial on my path to working as a Full Stack
+      Developer.
     </p>
 
     <p>
@@ -96,7 +96,7 @@
   </div>
 </template>
 <script>
-import BtmHero from "../components/BtmHero.vue";
+import BtmHero from "@/components/BtmHero";
 import Image1 from "/public/imgs/IMG_20230702_100131_11zon.jpg";
 import Image6 from "/public/imgs/IMG_20230116_135224_11zon.jpg";
 import Image3 from "/public/imgs/Screenshot 2023-07-02 at 6.54.51 PM_11zon.jpg";
@@ -137,86 +137,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.about {
-  padding: 3% 100px;
-  font-family: "Montserrat", sans-serif;
-  color: #333;
-  line-height: 1.6;
-  text-align: left;
-  background-color: #f9f9f9;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-}
-.fade {
-  transition: 5s ease-out;
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  opacity: 0;
-}
-.about p {
-  margin-bottom: 20px;
-}
-
-.about p:last-child {
-  text-align: center;
-  font-weight: bold;
-}
-.carousel-bg {
-  background-color: #f9f9f9;
-}
-.carousel-container {
-  background-color: #f9f9f9;
-  width: 100%;
-  overflow: hidden;
-}
-
-.carousel-image {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
-  margin: auto;
-  display: block;
-}
-@media screen and (max-width: 700px) {
-  .about {
-    padding: 3% 20px;
-    font-size: 18px;
-  }
-  .about h1 {
-    font-size: 24px;
-    margin: 10px 0;
-  }
-  .about p {
-    line-height: 1.8;
-    margin-bottom: 25px;
-  }
-}
-.custom-transition .v-window__container {
-  transition: all 5s ease-in-out;
-}
-
-@media screen and (max-width: 450px) {
-  .about h1 {
-    font-size: 18px;
-    margin: 5px 0;
-  }
-  .about p {
-    line-height: 1.9;
-    margin-bottom: 30px;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .about h1 {
-    font-size: 17px;
-    margin: 3px 0;
-  }
-  .about p {
-    line-height: 2;
-    margin-bottom: 35px;
-  }
-}
-</style>
+<style scoped src="./About.css" />

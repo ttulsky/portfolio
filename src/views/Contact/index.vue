@@ -45,7 +45,7 @@
 
 <script>
 import * as emailjs from "@emailjs/browser";
-import ContactHero from "../components/ContactHero.vue";
+import ContactHero from "../../components/ContactHero/index.vue";
 
 export default {
   name: "ContactUs",
@@ -97,81 +97,4 @@ export default {
 };
 </script>
 
-<style scoped>
-* {
-  box-sizing: border-box;
-}
-.email {
-  padding-top: 15px;
-  text-align: center;
-}
-
-.contacts {
-  padding-top: 15px;
-  text-align: center;
-  justify-content: space-around;
-}
-
-.contacts .v-btn {
-  margin: 0 10px;
-  color: white;
-  background-color: #4675a6; /* Or any color you like */
-}
-
-.contacts .v-btn:hover {
-  background-color: #a8cff5; /* Or any color you like */
-}
-
-.top {
-  padding-top: 25px;
-  overflow-y: auto;
-  height: 100vh;
-}
-
-label {
-  float: left;
-}
-
-input[type="text"],
-[type="email"],
-textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #b4b1b1;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type="submit"] {
-  background-color: #4675a6;
-  color: rgb(252, 250, 250);
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: #a2cbf5;
-}
-
-.container {
-  display: block;
-  margin: auto;
-  text-align: center;
-  border-radius: 5px;
-  background-color: #d2e8f4;
-  padding: 20px;
-  width: 50%;
-}
-
-/* Add media query for smaller viewports */
-@media (max-width: 700px) {
-  .container {
-    width: 90%;
-  }
-}
-</style>
+<style scoped src="./Contact.css" />

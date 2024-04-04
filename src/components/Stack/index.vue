@@ -25,31 +25,4 @@
 <script>
 export default {};
 </script>
-<style scoped>
-#skills {
-  display: flex;
-  align-items: flex-start;
-}
-
-.front,
-.back {
-  flex: 0 0 auto; /* Flex items to not grow and take their content's width */
-}
-
-.front ul,
-.back ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.front h2,
-.back h2 {
-  margin-top: 0;
-}
-
-/* Add some space between the front and back sections */
-.back {
-  margin-left: 2em;
-}
-</style>
+<style scoped src="./Stack.css" />

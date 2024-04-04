@@ -1,0 +1,66 @@
+.icon-row {
+  padding-top: 1.5%;
+  padding-right: 15%;
+}
+.icon-col {
+  padding-right: 10%;
+}
+.container {
+  padding-bottom: 0px;
+}
+
+#skills {
+  align-items: flex-start;
+}
+
+.front ul,
+.back ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.front h2,
+.back h2 {
+  margin-top: 0;
+}
+
+.title {
+  margin-bottom: 2%;
+}
+
+.icon-row img {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.icon-col {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .front,
+  .back {
+    padding-left: 3%;
+    flex-basis: 20%;
+  }
+
+  .icon-row {
+    justify-content: center;
+  }
+
+  .icon-col {
+    padding-left: 2% !important;
+    padding-bottom: 2%;
+  }
+}

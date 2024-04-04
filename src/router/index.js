@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-import About from "../views/About.vue";
-import Contact from "../views/Contact.vue";
-import Projects from "../views/Projects.vue";
-import Home from "../views/Home.vue";
+import About from "../views/About/index.vue";
+import Contact from "../views/Contact/index.vue";
+import Projects from "../views/Projects/index.vue";
+import Home from "../views/Home/index.vue";
 
 const routes = [
   {

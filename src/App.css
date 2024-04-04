@@ -1,0 +1,10 @@
+.space-ghost {
+  padding-top: 0px;
+  display: none;
+}
+
+@media screen and (min-width: 1000px) {
+  .space-ghost {
+    display: block;
+  }
+}

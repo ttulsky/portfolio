@@ -10,8 +10,8 @@
 </template>
 
 <script>
-import TheHeader from "./components/TheHeader.vue";
-import TheFooter from "./components/TheFooter.vue";
+import TheHeader from "./components/TheHeader/index.vue";
+import TheFooter from "./components/TheFooter/index.vue";
 
 export default {
   name: "App",
@@ -23,15 +23,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.space-ghost {
-  padding-top: 0px;
-  display: none;
-}
-
-@media screen and (min-width: 1000px) {
-  .space-ghost {
-    display: block;
-  }
-}
-</style>
+<style scoped src="./App.css" />
