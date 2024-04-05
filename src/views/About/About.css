@@ -54,6 +54,11 @@
     margin-bottom: 25px;
   }
 }
+
+.bottom-tagline {
+  padding-top: 2%;
+}
+
 .custom-transition .v-window__container {
   transition: all 5s ease-in-out;
 }

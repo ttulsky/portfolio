@@ -89,7 +89,7 @@
         </div>
       </div>
     </div>
-    <p>
+    <p class="bottom-tagline">
       Let's collaborate to craft something extraordinary. I look forward to our
       journey of creation together!
     </p>
