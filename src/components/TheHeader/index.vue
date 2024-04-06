@@ -14,6 +14,7 @@
       <v-list dense>
         <router-link class="links" to="/projects">
           <v-list-item
+            @click="toggleDrawer"
             prepend-icon="mdi-star"
             title="Projects"
             value="Projects"
@@ -21,6 +22,7 @@
         </router-link>
         <router-link class="links" to="/contact">
           <v-list-item
+            @click="toggleDrawer"
             prepend-icon="mdi-email"
             title="Connect"
             value="Connect"
@@ -28,6 +30,7 @@
         </router-link>
         <router-link class="links" to="/about">
           <v-list-item
+            @click="toggleDrawer"
             prepend-icon="mdi-message-text"
             title="About"
             value="About"
@@ -64,6 +67,9 @@ export default {
     closeDrawer() {
       // close drawer when clicking outside of it
       this.drawer = false;
+    },
+    toggleDrawer() {
+      this.drawer = !this.drawer;
     },
   },
 };
