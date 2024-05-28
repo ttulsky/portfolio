@@ -24,3 +24,29 @@
     padding-bottom: 30%;
   }
 }
+.custom-btn {
+  background-color: #4272a5 !important;
+  color: #ffffff !important;
+}
+
+.custom-btn .v-btn:hover {
+  background-color: #a8c3de; /* Or any color you like */
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  padding: 50px 25px;
+}
+
+.projects-grid > .v-card {
+  justify-self: center;
+}
+
+@media screen and (max-width: 1100px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    padding-bottom: 30%;
+  }
+}

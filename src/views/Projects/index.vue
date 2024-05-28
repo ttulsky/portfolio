@@ -3,6 +3,51 @@
   <div class="btns">
     <v-card class="mx-auto" max-width="300">
       <v-img
+        src="/imgs/Screenshot 2024-05-28 at 9.50.26 PM.png"
+        height="175px"
+        cover
+      ></v-img>
+
+      <v-card-title> Swole Wellness </v-card-title>
+
+      <v-card-subtitle> A comprehensive wellness app </v-card-subtitle>
+
+      <v-card-actions>
+        <v-btn
+          class="custom-btn"
+          href="https://lets-get-swole-fam.web.app/"
+          target="https://lets-get-swole-fam.web.app/"
+        >
+          Swole Wellness
+        </v-btn>
+
+        <v-spacer></v-spacer>
+
+        <v-btn
+          :icon="show[2] ? 'mdi-chevron-up' : 'mdi-chevron-down'"
+          @click="toggle(2)"
+        ></v-btn>
+      </v-card-actions>
+
+      <v-expand-transition>
+        <div v-show="show[2]">
+          <v-divider></v-divider>
+
+          <v-card-text>
+            Developed using React's dynamic capabilities and Firebase's
+            real-time features, this app offers a comprehensive experience in
+            tracking fitness, meditation, meals and offers advice for fitness
+            and good habit-building. It allows users to log workouts, meals, and
+            meditation sessions, while providing secure user authentication and
+            seamless data retrieval. This project not only enhanced my technical
+            skills but also deepened my understanding of integrating wellness
+            activities into a cohesive platform.
+          </v-card-text>
+        </div>
+      </v-expand-transition>
+    </v-card>
+    <v-card class="mx-auto" max-width="300">
+      <v-img
         src="imgs/Screen Shot 2023-06-24 at 5.40.37 PM.png"
         height="175px"
         cover
@@ -24,13 +69,13 @@
         <v-spacer></v-spacer>
 
         <v-btn
-          :icon="show[2] ? 'mdi-chevron-up' : 'mdi-chevron-down'"
-          @click="toggle(2)"
+          :icon="show[5] ? 'mdi-chevron-up' : 'mdi-chevron-down'"
+          @click="toggle(5)"
         ></v-btn>
       </v-card-actions>
 
       <v-expand-transition>
-        <div v-show="show[2]">
+        <div v-show="show[5]">
           <v-divider></v-divider>
 
           <v-card-text>
@@ -130,7 +175,7 @@
         </div>
       </v-expand-transition>
     </v-card>
-    <v-card class="mx-auto" max-width="300">
+    <!-- <v-card class="mx-auto" max-width="300">
       <v-img
         src="imgs/Screen Shot 2023-06-24 at 5.10.16 PM.jpeg"
         height="175px"
@@ -169,7 +214,7 @@
           </v-card-text>
         </div>
       </v-expand-transition>
-    </v-card>
+    </v-card> -->
   </div>
 </template>
 
@@ -192,3 +237,31 @@ export default {
 </script>
 
 <style scoped src="./Projects.css" />
+
+<style scoped src="./Projects.css" />
+<style scoped>
+.custom-btn {
+  background-color: #4272a5 !important;
+  color: #ffffff !important;
+}
+.custom-btn .v-btn:hover {
+  background-color: #a8c3de; /* Or any color you like */
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  padding: 50px 25px;
+}
+
+.projects-grid > .v-card {
+  justify-self: center;
+}
+
+@media screen and (max-width: 1100px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    padding-bottom: 30%;
+  }
+}
+</style>
