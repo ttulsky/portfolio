@@ -34,14 +34,15 @@
           <v-divider></v-divider>
 
           <v-card-text>
-            Developed using React's dynamic capabilities and Firebase's
-            real-time features, this app offers a comprehensive experience in
-            tracking fitness, meditation, meals and offers advice for fitness
-            and good habit-building. It allows users to log workouts, meals, and
-            meditation sessions, while providing secure user authentication and
-            seamless data retrieval. This project not only enhanced my technical
-            skills but also deepened my understanding of integrating wellness
-            activities into a cohesive platform.
+            Developed using React and Firebase, this app offers a comprehensive
+            experience in tracking fitness, meditation, meals and offers advice
+            for fitness and good habit-building. It allows users to create
+            accounts, log workouts, meals, and meditation sessions, while
+            providing secure user authentication and seamless data retrieval.
+            There are dynamic views for desktop and mobile versions and even a
+            downloadable version for mobile users. This project not only
+            enhanced my technical skills but also deepened my understanding of
+            integrating wellness activities into a cohesive platform.
           </v-card-text>
         </div>
       </v-expand-transition>
