@@ -40,7 +40,7 @@
             accounts, log workouts, meals, and meditation sessions, while
             providing secure user authentication and seamless data retrieval.
             There are dynamic views for desktop and mobile versions and even a
-            downloadable version for mobile users. This project not only
+            downloadable version for mobile android users. This project not only
             enhanced my technical skills but also deepened my understanding of
             integrating wellness activities into a cohesive platform.
           </v-card-text>
