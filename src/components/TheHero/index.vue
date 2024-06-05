@@ -2,9 +2,10 @@
   <div class="hero-image">
     <div class="hero-text">
       <h1>Hi, I'm Tyler</h1>
-      <h3>Your Friendly Neighborhood Web Developer</h3>
+      <h3>Full Stack Web Developer</h3>
+      <br />
       <router-link to="/contact">
-        <v-btn class="my-btn" rounded="xl">Hire Me Today!</v-btn>
+        <v-btn class="my-btn" rounded="xl">Let's Connect!</v-btn>
       </router-link>
     </div>
   </div>

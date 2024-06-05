@@ -134,14 +134,14 @@
         </div>
       </v-expand-transition>
     </v-card>
-    <v-card class="mx-auto" max-width="300">
+    <!-- <v-card class="mx-auto" max-width="300">
       <v-img
         src="/imgs/Screenshot 2024-04-02 at 10.38.43 AM.png"
         height="175px"
         cover
-      ></v-img>
+      ></v-img> -->
 
-      <v-card-title> Tyler's Blog Spot </v-card-title>
+    <!-- <v-card-title> Tyler's Blog Spot </v-card-title>
 
       <v-card-subtitle> My Blog On All Things Tech </v-card-subtitle>
 
@@ -175,7 +175,7 @@
           </v-card-text>
         </div>
       </v-expand-transition>
-    </v-card>
+    </v-card> -->
     <!-- <v-card class="mx-auto" max-width="300">
       <v-img
         src="imgs/Screen Shot 2023-06-24 at 5.10.16 PM.jpeg"
