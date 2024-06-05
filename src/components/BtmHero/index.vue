@@ -2,6 +2,7 @@
   <div class="hero-image">
     <div class="hero-text">
       <h1>Want to learn more about my work?</h1>
+      <br />
       <router-link to="/projects">
         <v-btn class="my-btn" rounded="xl">Check Here!</v-btn>
       </router-link>
